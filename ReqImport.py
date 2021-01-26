@@ -25,7 +25,7 @@ def import_req(csvFilePath, specification_ID):
                                 "title" :  rows['Name'],
                                 "text" : rows['Description']
                                 }
-                        answer = valispace.post('requirements/', req)
+                        requirementPosted = valispace.post('requirements/', req)
 
 
 
